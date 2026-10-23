@@ -499,22 +499,3 @@ onMounted(async () => {
   donnees.value = await reponse.json();
 });
 ```
-
----
-
-## 10. Présentation du Projet Déroulable : "EPSI DevTrack"
-
-Pour mettre en application l'ensemble de ces concepts, un projet complet fonctionnel a été configuré dans le sous-dossier :
-📂 `priv_brouillon_cours/projet-vue-exemple/`
-
-### 10.1 Fonctionnalités incluses dans le projet :
-1. **Gestion complète de tâches :** Ajout, bascule terminée/en cours, édition inline (double clic), suppression.
-2. **Métadonnées :** Catégories (Symfony, BDD SQL, Dev JS, DevOps) et Priorités avec badges colorés dynamiques.
-3. **Filtres avancés :** Barre de recherche en temps réel et filtres combinés par statut et catégorie.
-4. **Indicateurs de progression :** Barre d'avancement animée et calcul automatique du % de complétion.
-5. **Persistance réelle :** Synchronisation automatique avec le `localStorage`.
-6. **Thème Sombre / Clair :** Bascule dynamique avec variables CSS.
-7. **Transitions :** Animations fluides d'insertion et de suppression grâce à `<TransitionGroup>`.
-
-### 10.2 Déroulement du TP avec vos élèves
-Consultez le fichier **`GUIDE_PEDAGOGIQUE.md`** situé dans le dossier du projet pour animer la session en 5 phases de live-coding structurées.
