@@ -230,16 +230,16 @@ flowchart TD
 
 ## 5. Comparatif Face-à-Face : Webpack vs Vite
 
-| Critère | Webpack | Vite |
-| :--- | :--- | :--- |
-| **Philosophie en Dev** | Assemble tout le projet avant de servir | Sert les modules natifs (ESM) à la volée |
-| **Vitesse de démarrage dev** | Lente (plusieurs secondes à minutes) | **Instantanée** (< 300 ms) |
-| **Vitesse de mise à jour (HMR)** | Décroît quand le projet grossit | **Constante**, quelle que soit la taille du projet |
-| **Outil de compilation de build** | Moteur JavaScript interne | **esbuild (Go)** en dev + **Rollup** en prod |
-| **Complexité de configuration** | Élevée (*"Webpack Fatigue"*) | **Minimale** (fonctionne out-of-the-box sans config) |
-| **Point d'entrée principal** | Fichier JavaScript (`entry: index.js`) | Fichier HTML (`index.html`) |
-| **Maturité & Écosystème** | Historique, plugins pour chaque cas rare | Moderne, ultra dynamique, standard actuel |
-| **Usage recommandé (2026)** | Maintenance de projets legacy / anciens Symfony | **Nouveaux projets** (Vanilla, React, Vue, Symfony récent) |
+| Critère                           | Webpack                                         | Vite                                                       |
+| :-------------------------------- | :---------------------------------------------- | :--------------------------------------------------------- |
+| **Philosophie en Dev**            | Assemble tout le projet avant de servir         | Sert les modules natifs (ESM) à la volée                   |
+| **Vitesse de démarrage dev**      | Lente (plusieurs secondes à minutes)            | **Instantanée** (< 300 ms)                                 |
+| **Vitesse de mise à jour (HMR)**  | Décroît quand le projet grossit                 | **Constante**, quelle que soit la taille du projet         |
+| **Outil de compilation de build** | Moteur JavaScript interne                       | **esbuild (Go)** en dev + **Rollup** en prod               |
+| **Complexité de configuration**   | Élevée (*"Webpack Fatigue"*)                    | **Minimale** (fonctionne out-of-the-box sans config)       |
+| **Point d'entrée principal**      | Fichier JavaScript (`entry: index.js`)          | Fichier HTML (`index.html`)                                |
+| **Maturité & Écosystème**         | Historique, plugins pour chaque cas rare        | Moderne, ultra dynamique, standard actuel                  |
+| **Usage recommandé (2026)**       | Maintenance de projets legacy / anciens Symfony | **Nouveaux projets** (Vanilla, React, Vue, Symfony récent) |
 
 ---
 

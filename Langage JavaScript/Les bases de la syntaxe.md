@@ -351,9 +351,3 @@ for (let j = 0; j < 3; j++) {
 }
 // Résultat dans la console : 0, 1, 2 (chaque itération crée une nouvelle variable j capturée par la closure)
 ```
-
----
-
-
-### Prochaine étape :
-➡️ **[[Objets, this et Héritage prototypal]]**

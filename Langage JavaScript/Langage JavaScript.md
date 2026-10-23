@@ -13,3 +13,6 @@
 
 ### 3. Outillage & Écosystème
 - [[Les Bundlers - Vite et Webpack]]
+
+### 4. Framework Frontend Moderne
+- [[Vue.js avec Vite]]
