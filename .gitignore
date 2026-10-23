@@ -1,1 +1,5 @@
 .obsidian/
+
+# Ignorer tous les dossiers et sous-dossiers commençant par priv_
+priv_*/
+**/priv_*/
