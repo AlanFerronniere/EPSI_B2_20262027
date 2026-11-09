@@ -2,6 +2,10 @@
 
 Ce cours présente les fondamentaux de **TypeScript**, son rôle dans l'écosystème web moderne, sa complémentarité avec **JavaScript**, et comment il sécurise le développement frontend en équipe.
 
+```bash
+# Création d'un projet Vite avec template TypeScript Vanilla
+npm create vite@latest mon-projet-js -- --template vanilla-ts
+```
 ---
 
 ## 1. Qu'est-ce que TypeScript ?
