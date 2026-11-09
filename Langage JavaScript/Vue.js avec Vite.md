@@ -2,8 +2,6 @@
 
 Ce cours est conçu pour les étudiants de **B2 EPSI** ayant déjà assimilé les bases du JavaScript moderne (ES6+), l'héritage prototypal, la manipulation du DOM (Vanilla et jQuery) ainsi que le fonctionnement des bundlers modernes (Vite).
 
-Il introduit le paradigme des **frameworks réactifs basés sur les composants**, explore en profondeur **Vue.js 3** avec la **Composition API (`<script setup>`)**, et s'appuie sur le projet d'exemple complet **EPSI DevTrack** situé dans le sous-dossier `priv_brouillon_cours/projet-vue-exemple/`.
-
 ---
 
 ## 1. Du DOM Impératif aux Frameworks Déclaratifs
